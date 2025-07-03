@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from scipy import signal
 
-
 def aplicar_filtro_butterworth(
     df: pd.DataFrame,
     coluna_sinal: str,
