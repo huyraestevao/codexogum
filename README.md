@@ -26,3 +26,17 @@ Install them via pip:
 ```bash
 pip install numpy pandas matplotlib scipy ipywidgets ipython jupyter
 ```
+
+## Running Tests
+
+The unit tests use `pytest`. Install it with pip:
+
+```bash
+pip install pytest
+```
+
+Then run the test suite from the repository root:
+
+```bash
+pytest
+```
